@@ -1,0 +1,9686 @@
+ports COM7
+serialListener.DIserialPort.on Open COM7
+serialListenerInit called 
+serialListener: setup connection now
+App in Dev mode
+a user connected
+connected socket: hdbdFsFe3YZ6FijVAAAA
+a user connected
+connected socket: 0JBUBQKIdyFXi5r5AAAB
+stopDataFlow
+startDataFlow
+return from AA
+DI_err undefined
+DI_results 2
+handleDIserialPortData data is: {
+	"voltage": 25148,
+	"current": 5208,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6738069
+}
+
+checkJson ERROR: package size Wrong: 309
+serialListener: got bad data {
+	"voltage": 25148,
+	"current": 5208,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6738069
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 14935,
+	"current": 2756,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6745524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 14797,
+	"current": 2571,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6758084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 14945,
+	"current": 2522,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6770644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15095,
+	"current": 2520,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6783204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15242,
+	"current": 2518,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6795764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15378,
+	"current": 2527,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6808324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15479,
+	"current": 2545,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6820884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15594,
+	"current": 2547,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6833444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15686,
+	"current": 2568,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6846005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15776,
+	"current": 2582,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6858564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15860,
+	"current": 2586,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6871124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15920,
+	"current": 2605,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6883684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 15989,
+	"current": 2609,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6896244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16046,
+	"current": 2617,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6908804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16076,
+	"current": 2633,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6921364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16135,
+	"current": 2632,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6933924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16166,
+	"current": 2645,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6946484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16225,
+	"current": 2655,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6959044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16250,
+	"current": 2649,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6971604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16261,
+	"current": 2662,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6984164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16300,
+	"current": 2667,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    6996724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16337,
+	"current": 2666,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7009284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16340,
+	"current": 2684,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7021844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16403,
+	"current": 2678,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7034404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16363,
+	"current": 2678,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7046964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16416,
+	"current": 2693,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7059524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16432,
+	"current": 2682,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7072084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16421,
+	"current": 2694,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7084644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16471,
+	"current": 2695,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7097204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16457,
+	"current": 2689,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7109764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16460,
+	"current": 2703,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7122324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16501,
+	"current": 2697,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7134884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16487,
+	"current": 2698,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7147444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16500,
+	"current": 2710,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7160005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16522,
+	"current": 2697,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7172564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16497,
+	"current": 2708,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7185124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16518,
+	"current": 2709,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7197684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16531,
+	"current": 2700,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7210244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16522,
+	"current": 2714,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7222804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16555,
+	"current": 2705,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7235364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16536,
+	"current": 2707,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7247924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16539,
+	"current": 2720,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7260484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16563,
+	"current": 2708,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7273044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16543,
+	"current": 2714,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7285604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16569,
+	"current": 2720,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7298164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16565,
+	"current": 2705,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7310724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16547,
+	"current": 2722,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7323284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16570,
+	"current": 2715,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7335844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16556,
+	"current": 2712,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7348404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16576,
+	"current": 2726,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7360964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16574,
+	"current": 2710,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7373524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16573,
+	"current": 2717,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7386084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16593,
+	"current": 2724,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7398644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16586,
+	"current": 2710,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7411204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16576,
+	"current": 2721,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7423764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16604,
+	"current": 2722,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7436324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16595,
+	"current": 2715,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7448884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16582,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7461444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16627,
+	"current": 2719,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7474005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16587,
+	"current": 2721,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7486564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16614,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7499124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16614,
+	"current": 2715,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7511684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16603,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7524244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16624,
+	"current": 2724,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7536804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16621,
+	"current": 2720,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7549364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16613,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7561924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16635,
+	"current": 2722,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7574484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16600,
+	"current": 2720,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7587044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16632,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7599604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16630,
+	"current": 2716,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7612164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16607,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7624724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16643,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7637284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16635,
+	"current": 2720,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7649844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16627,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7662404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16641,
+	"current": 2725,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7674964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16624,
+	"current": 2722,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7687524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16638,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7700084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16634,
+	"current": 2722,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7712644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16618,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7725204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16649,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7737764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16649,
+	"current": 2723,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7750324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16616,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7762884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16647,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7775444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16647,
+	"current": 2724,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7788005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16629,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7800564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16660,
+	"current": 2723,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7813124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16630,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7825684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16656,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7838244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16661,
+	"current": 2721,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7850804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16642,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7863364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16664,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7875924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16636,
+	"current": 2722,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7888484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16656,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7901044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16653,
+	"current": 2723,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7913604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16639,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7926164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16683,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7938724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16663,
+	"current": 2723,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7951284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16631,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7963844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16667,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7976404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16682,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    7988964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16647,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8001524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16667,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8014084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16661,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8026644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16677,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8039204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16675,
+	"current": 2723,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8051764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16653,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8064324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16684,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8076884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16669,
+	"current": 2726,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8089444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16649,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8102005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16694,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8114564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16660,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8127124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16669,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8139684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16676,
+	"current": 2723,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8152244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16654,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8164804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16678,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8177364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16658,
+	"current": 2724,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8189924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16650,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8202484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16676,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8215044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16659,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8227604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16671,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8240164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16678,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8252724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16651,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8265284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16671,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8277844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16681,
+	"current": 2726,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8290404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16662,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8302964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16678,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8315524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16669,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8328084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16674,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8340644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16682,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8353204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16661,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8365764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8378324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2726,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8390884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16662,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8403444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16706,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8416005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16679,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8428564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16688,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8441124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16684,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8453684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16696,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8466244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16691,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8478804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8491364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16672,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8503924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16699,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8516484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16666,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8529044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16690,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8541604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16687,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8554164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16670,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8566724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16694,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8579284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16705,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8591844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16672,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8604404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16703,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8616964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16688,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8629524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16680,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8642084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16700,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8654644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16667,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8667204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16686,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8679764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16683,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8692324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16671,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8704884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16708,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8717444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16699,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8730005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16680,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8742564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16703,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8755124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16676,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8767684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16701,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8780244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16683,
+	"current": 2726,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8792804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8805364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16699,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8817924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8830484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16667,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8843044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8855604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16686,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8868164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16703,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8880724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16698,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8893284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16692,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8905844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8918404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16687,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8930964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16702,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8943524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8956084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16708,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8968644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16680,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8981204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    8993764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16688,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9006324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16707,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9018884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16698,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9031444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16700,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9044005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9056564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16681,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9069124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16692,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9081684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9094244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16697,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9106804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16698,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9119364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16696,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9131924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16688,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9144484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9157044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16704,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9169604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9182164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9194724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16694,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9207284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16701,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9219844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9232404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16698,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9244964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9257524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16689,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9270084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16695,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9282644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9295204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16680,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9307764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16703,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9320324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9332884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16683,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9345444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9358005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16700,
+	"current": 2727,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9370564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16684,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9383124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16722,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9395684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16700,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9408244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9420804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9433364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9445924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16706,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9458484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9471044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9483604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9496164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16699,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9508724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16695,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9521284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9533844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16691,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9546404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16709,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9558964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9571524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16703,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9584084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16704,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9596644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16708,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9609204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16697,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9621764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9634324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16699,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9646884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9659444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16722,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9672005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16691,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9684564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9697124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16706,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9709684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9722244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16729,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9734804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16697,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9747364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16705,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9759924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9772484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16701,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9785044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9797604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16704,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9810164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16708,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9822724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9835284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9847844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16705,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9860404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9872964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16698,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9885524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9898084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9910644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16696,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9923204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16722,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9935764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9948324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9960884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9973444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16696,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9986005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":    9998564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10011124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16707,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10023684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10036244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10048804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16707,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10061364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10073924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10086484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10099044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16737,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10111604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10124164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16730,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10136724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16709,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10149284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10161844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10174404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10186964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10199524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10212084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16716,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10224644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10237204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16708,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10249764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16698,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10262324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10274884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10287444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10300005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10312564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16702,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10325124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10337684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10350244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10362804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10375364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16696,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10387924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16731,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10400484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10413044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10425604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10438164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10450724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10463284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10475844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16705,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10488404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10500964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10513524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16709,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10526084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10538644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16716,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10551204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16696,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10563764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10576324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10588884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16708,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10601444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10614005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16707,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10626564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10639124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10651684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16707,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10664244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16719,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10676804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16722,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10689364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10701924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10714484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16692,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10727044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10739604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10752164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10764724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10777284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10789844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10802404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16744,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10814964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10827524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10840084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10852644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16703,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10865204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16749,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10877764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16706,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10890324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10902884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10915444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16719,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10928005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10940564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10953124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10965684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16741,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10978244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   10990804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11003364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16748,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11015924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11028484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11041044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11053604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11066164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16745,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11078724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16716,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11091284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16708,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11103844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11116404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11128964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11141524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16751,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11154084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16719,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11166644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11179204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11191764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16707,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11204324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11216884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11229444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16722,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11242005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11254564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11267124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16750,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11279684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11292244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16707,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11304804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11317364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11329924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11342484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11355044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11367604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2749,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11380164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2729,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11392724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16693,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11405284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16750,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11417844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11430404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11442964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11455524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11468084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11480644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16738,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11493204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16702,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11505764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16741,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11518324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16729,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11530884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11543444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16736,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11556005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16719,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11568564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11581124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11593684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16724,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11606244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11618804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2726,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11631364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11643924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11656484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16704,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11669044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11681604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11694164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11706724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16748,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11719284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16716,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11731844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11744404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11756964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11769524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11782084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11794644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11807204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16716,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11819764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11832324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11844884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11857444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11870005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11882564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11895124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11907684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16729,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11920244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16738,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11932804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16706,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11945364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16750,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11957924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16731,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11970484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11983044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   11995604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12008164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16733,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12020724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16738,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12033284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12045844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16754,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12058404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16731,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12070964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12083524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16736,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12096084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12108644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12121204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12133764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12146324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16733,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12158884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16729,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12171444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2749,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12184005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16751,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12196564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16716,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12209124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12221684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16753,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12234244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16709,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12246804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12259364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12271924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16710,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12284484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12297044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12309604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12322164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16729,
+	"current": 2728,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12334724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12347284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12359844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12372404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12384964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16746,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12397524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12410084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12422644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16744,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12435204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12447764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16729,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12460324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12472884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16695,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12485444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16749,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12498005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16709,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12510564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12523124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16747,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12535684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16712,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12548244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12560804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12573364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16706,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12585924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16741,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12598484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12611044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12623604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16737,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12636164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12648724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2749,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12661284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16753,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12673844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12686404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16745,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12698964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16731,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12711524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12724084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12736644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16719,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12749204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2749,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12761764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12774324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12786884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16737,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12799444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12812005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12824564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16731,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12837124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16715,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12849684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12862244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12874804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12887364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16728,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12899924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12912484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16746,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12925044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16746,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12937604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16737,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12950164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12962724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16744,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12975284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16717,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   12987844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13000404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13012964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13025524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16736,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13038084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13050644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13063204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16745,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13075764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13088324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13100884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13113444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16741,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13126005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16752,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13138564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13151124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13163684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16737,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13176244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16745,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13188804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13201364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16753,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13213924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16727,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13226484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16744,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13239044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16729,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13251604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13264164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13276724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16719,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13289284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13301844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13314404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16723,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13326964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16748,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13339524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16731,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13352084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16711,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13364644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2739,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13377204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13389764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13402324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13414884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16720,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13427444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16752,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13440005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16751,
+	"current": 2730,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13452564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16722,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13465124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16757,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13477684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2731,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13490244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13502804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16755,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13515364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16730,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13527924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16742,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13540484
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16751,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13553044
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16732,
+	"current": 2742,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13565604
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16738,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13578164
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16734,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13590724
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16713,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13603284
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16758,
+	"current": 2738,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13615844
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16714,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13628404
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2745,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13640964
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16739,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13653524
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2743,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13666084
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2740,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13678644
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16721,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13691204
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13703764
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16749,
+	"current": 2735,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13716324
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16746,
+	"current": 2736,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13728884
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16735,
+	"current": 2747,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13741444
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16764,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13754005
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16716,
+	"current": 2741,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13766564
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16758,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13779124
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16743,
+	"current": 2734,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13791684
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16726,
+	"current": 2744,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13804244
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2737,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13816804
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16718,
+	"current": 2733,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13829364
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16725,
+	"current": 2746,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13841924
+}
+
+handleDIserialPortData data is: 
+{
+	"voltage": 16740,
+	"current": 2732,
+	"rpm":        0,
+	"windSpeed":    0,
+	"pitchAngle": -100,
+	"temperature":  230,
+	"ambientPressure": 101300000,
+	"humidity": 1000,
+	"accelerationX":     0,
+	"accelerationY":     0,
+	"accelerationZ":    -1,
+	"currentSink":    0,
+	"timestamp":   13854484
+}
+

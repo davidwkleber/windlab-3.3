@@ -1,0 +1,192 @@
+
+	<div class="DLbuttonDiv">
+		<span class="DLbuttons">
+			<div>
+				<input type="image" src="/images/up.png"  class="DLupButton" id="DLupButton" name="DLupButton" ></button>
+			</div><div>
+				<input type="image" src="/images/down.png"  class="DLdownButton" id="DLdownButton" ></button>
+			</div>
+		</span>
+	</div>
+	<div class="DLinitDiv" id="DLinitDiv" name="DLinitDiv"> 
+		<form>
+			<div class="DLinitButton" id="DLinitButton" name="DLinitButton">
+				<input type="checkbox" name="DLinitButton-checkbox" class="DLinitButton-checkbox" id="myDLinitButton" checked>
+				<label class="DLinitButton-label" for="myDLinitButton">
+					<span class="DLinitButton-inner"></span>
+					<span class="DLinitButton-switch"></span>
+				</label>
+			</div>
+		</form>
+	</div>	
+	<div class="dummyLoadDiv">
+		<form name="dummyLoadForm" id="dummyLoadForm" class="dummyLoadForm" action="/dummyLoad" method="post">
+			<a class="DLawesome-button"></a>
+	        <p class="DLcurrentValue" id="DLcurrentValue" ><span>0 %</span></p>
+
+        
+		
+<script>
+		
+	// 
+	// setup state stuff
+	//
+	dummyLoadValue = 1;
+	var mouseIsDown = "false";
+	var DLframeToPlay = 0;
+	var DLnumFrames = 201;
+	var DLcurrentValue = 0;
+	//setup a variable to store our last position
+	var DLlast_position = {},
+		$output       = $('#output');
+
+    //Instantiate and get the instance from the element's data-spriteClip property
+    var DLinstance = $(".DLawesome-button").spriteClip({
+        totalFrames: DLnumFrames,
+        frameRate: 60,
+        stops: [DLnumFrames, 1]
+    }).data("spriteClip");
+
+            DLinstance.$el
+				//
+				// register callback to handle toushstart = when user first presses finger to screen within div
+				//
+				.on("touchstart", function () {
+					mouseIsDown = "true";
+					DLlast_position = {
+						x : event.touches[0].clientX,
+						y : event.touches[0].clientY						
+					}
+				})
+			
+				//
+				// register callback to handle touchmove = when user moves finger after initial touch
+				//
+				$(".DLawesome-button").on('touchmove', function (TouchEvent) {
+					if ( mouseIsDown === "true" ) {
+//						console.log('mouseIsDown == true');
+
+						//check to make sure there is data to compare against
+						if (typeof(DLlast_position.x) != 'undefined' ) {
+							//get the change from last position to this position
+							var deltaX = DLlast_position.x - event.touches[0].clientX,
+								deltaY = DLlast_position.y - event.touches[0].clientY;
+							
+							// normalize the frame number and make sure it is within bounds of sprite clip
+							//	then set annimation to this frame
+							DLframeToPlay = Math.floor(DLframeToPlay + deltaY);
+							if 	(DLframeToPlay > DLnumFrames) DLframeToPlay = DLnumFrames;		
+							if 	(DLframeToPlay < 1) DLframeToPlay = 1;		
+							DLinstance.gotoAndStop(DLframeToPlay);
+						}
+					} else {
+//						console.log('mouseIsDown != true ');
+					}
+					//set the new last position to the current for next time
+					DLlast_position = {
+						x : event.touches[0].clientX,
+						y : event.touches[0].clientY
+					}
+				})
+			
+				//
+				// register callback to handle touchend = when user takes finger off screen
+				//	this is the event that causes the URI Post to the Restful API 
+				//
+                .on("touchend", function () {
+					mouseIsDown = "false";
+                    DLinstance.stop();
+					event.preventDefault();
+	
+					dummyLoadValue = DLinstance.currentFrame;
+					var posting = $.post( '/dummyLoad', { dummyLoadValue: DLinstance.currentFrame } );
+					posting.done(function( data ) {
+//						console.log('client post done ');
+					})
+					DLvalueText = returnDummyLoad(DLinstance.currentFrame);
+					$(".DLcurrentValue span").text(DLvalueText+" %")
+                });
+
+			//
+			// dispatch events as they occur?
+			//
+            DLinstance.$dispatcher
+                .on(SpriteClip.Event.ENTER_FRAME, function (e, clip) {
+					
+					DLvalueText = returnDummyLoad(DLinstance.currentFrame);
+					$(".DLcurrentValue span").text(DLvalueText+" %");
+                });
+							
+			//
+			// register callback for clicking Up Button
+			//	this will increase the sprite clip frame 
+			//	and post to the Restful API URI to handle the event 
+			//
+			$('#DLupButton').click(function(TouchEvent){
+					// keep from having the button make the post request
+				  	TouchEvent.preventDefault();
+
+					if 	(+DLinstance.currentFrame < +DLnumFrames) {
+						DLinstance.nextFrame();
+						
+						// not needed now that measurement returns this value
+						//dummyLoadValue = DLinstance.currentFrame;
+
+						var posting = $.post( '/dummyLoad', { dummyLoadValue: DLinstance.currentFrame } );
+						posting.done(function( data ) {
+	//						console.log('client dummyLoad post done ');
+						});
+						DLvalueText = returnDummyLoad(DLinstance.currentFrame);
+						$(".DLcurrentValue span").text(DLvalueText+" %");
+					};
+			});
+			
+			//
+			// register callback for clicking Down Button
+			//	this will increase the sprite clip frame 
+			//	and post to the Restful API URI to handle the event 
+			//
+			$('#DLdownButton').click(function(TouchEvent){
+			  	// keep from having the button make the post request
+				TouchEvent.preventDefault();
+
+				if 	(DLinstance.currentFrame > 1) {
+
+					DLinstance.prevFrame();
+						
+					// not needed now that measurement returns this value
+					//dummyLoadValue = DLinstance.currentFrame;
+					
+					var posting = $.post( '/dummyLoad', { dummyLoadValue: DLinstance.currentFrame } );										
+					posting.done(function( data ) {
+	//					console.log('client dummyLoad post done ');
+					});
+					
+					DLvalueText = returnDummyLoad(DLinstance.currentFrame);
+					$(".DLcurrentValue span").text(DLvalueText+" %");
+					
+				};
+			});		
+					
+		
+	//
+	// utility to 'normalize' position data to screen
+	//
+	function fixPageXY(e) {
+		if (e.pageX == null && e.clientX != null ) {
+			var html = document.documentElement
+			var body = document.body
+ 
+			e.pageX = e.touches[0].clientX + (html.scrollLeft || body && body.scrollLeft || 0)
+			e.pageX -= html.clientLeft || 0
+			e.pageY = e.touches[0].clientY + (html.scrollTop || body && body.scrollTop || 0)
+			e.pageY -= html.clientTop || 0
+		}
+	}
+
+				
+				
+		</script>
+	</form>
+</div>
+

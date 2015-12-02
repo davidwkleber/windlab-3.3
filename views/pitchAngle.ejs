@@ -1,0 +1,261 @@
+<! -- 
+//
+// pitchAngle.ejs
+//
+//	This is the interface component for the rotor blade pitch angle
+//
+//		A sprite annimation is used as interface. 
+//		this sits in an HTML div, 
+//			The div is used for polisitoning. 
+//		within which an HTML form lies, 
+//			The form is used for interfacing with the Restful API
+//			posting to URI /pitchAngle 
+//
+//		The Sprite animation is performed via the spriteClip library
+//
+-- >
+<!doctype html>
+
+	
+	<span class="PAbuttons">
+		<div class="PAbuttonDiv">
+			<div>
+				<input type="image" src="/images/up.png"  class="PAupButton" id="PAupButton" name="PAupButton" ><br>
+			</div>
+			<div>
+				<input type="image" src="/images/down.png"  class="PAdownButton" id="PAdownButton" ><br>
+			</div>
+		</div>
+	</span>
+
+<div class="PAinitButton" id="PAinitButton" name="PAinitButton">
+	<form>
+		<input type="checkbox" name="PAinitButton-checkbox" class="PAinitButton-checkbox" id="myPAinitButton" checked>
+		<label class="PAinitButton-label" for="myPAinitButton">
+			<span class="PAinitButton-inner"></span>
+			<span class="PAinitButton-switch"></span>
+		</label>
+	</form>
+</div>
+
+<div class=pitchAngleDiv>
+	<form name="pitchAngleForm" id="pitchAngleForm" class="pitchAngleForm" action="/pitchAngle" method="post">
+		<a class="pitchAngle-button"></a>
+		<p class="PAcurrentAngle" name="PAcurrentAngle" id="PAcurrentAngle"><span>-10°</span></p>
+	<script>
+		
+	// check for touch
+	//	this was used as an early attempt to maintain both mouse and touch capabilities. 
+	//	not really used anymore, though still need to ues hasTouch to identify if touch events are processed
+	//
+	var hasTouch = (typeof TouchEvent !== "undefined");
+		
+	//
+	// initialize the state stuff
+	//
+	var PAmouseIsDown = "false";
+	var PAframeToPlay = 1;
+	var PAnumFrames = 601;
+	var PAinitSelection = "on";
+	
+		pitchAngleValue = 1;
+	
+	//setup a variable to store our last position
+	var PAlast_position = {},
+		$PAoutput = $('#output');
+      
+	//Instantiate and get the instance from the element's data-spriteClip property
+    var PAinstance = $(".pitchAngle-button").spriteClip({
+        totalFrames: PAnumFrames,
+        frameRate: 60,
+        stops: [0, PAnumFrames]
+    }).data("spriteClip");	
+         	
+	PAinstance.currentFrame = PAframeToPlay;
+   	PAinstance.gotoAndStop(PAframeToPlay);	
+
+ //           PAinstance.$el
+ 
+		//
+		// if there is touch on this device, 
+		//		reguster the following callbacks to the touch event triggers
+		if (hasTouch) {
+			//
+			// handle touchstart = user first presses finger within the div
+			//
+			PAinstance.$el.on("touchstart", function () {
+ 			//			console.log('PA touch  down');
+				PAmouseIsDown = "true";
+				//check to make sure there is data to compare against
+				PAlast_position = {
+					x : event.touches[0].clientX,
+					y : event.touches[0].clientY					
+				}
+            })
+			} else {
+				PAinstance.$el.on("mousedown", function () {
+	//				console.log('PA mouse down');
+					PAmouseIsDown = "true";
+				})
+			}
+				
+		if (hasTouch) {
+	
+			//
+			// handle touchmove = when the user moves the finger 
+			//
+			PAinstance.$el.on('touchmove', function (TouchEvent) {	
+
+				// 
+				// check that the user has already pressed the screen. 
+				//	this helped jittery motion from resetting the inital location of touchstart
+				//
+				if ( PAmouseIsDown === "true" ) {
+//					console.log('PAmouseIsDown == true');
+
+					//check to make sure there is data to compare against
+					if (typeof(PAlast_position.x) != 'undefined' ) {
+	//					console.log('PAlast_position.x '+PAlast_position.x);
+						//get the change from last position to this position
+						var PAdeltaX = PAlast_position.x - event.touches[0].clientX,
+							PAdeltaY = PAlast_position.y - event.touches[0].clientY;
+
+						//
+						// set the annimation frame
+						//		checking that it is within 'bounds'. 
+						//		then go to that sprite clip frame
+						//	
+						PAframeToPlay = PAframeToPlay + PAdeltaY;
+						if 	(+PAframeToPlay > +PAnumFrames) PAframeToPlay = +PAnumFrames;		
+						if 	(+PAframeToPlay < +1) PAframeToPlay = +1;	
+						PAframeToPlay = Math.floor(+PAframeToPlay);	
+						PAinstance.gotoAndStop(+PAframeToPlay);	
+					}
+				} else {
+//					console.log('PAmouseIsDown != true ');
+				}
+				//set the new last position to the current for next time
+				PAlast_position = {
+					x : event.touches[0].clientX,
+					y : event.touches[0].clientY
+				}   
+			}) 
+		}
+		
+		if (hasTouch) {
+            PAinstance.$el.on("touchend", function () {
+				PAmouseIsDown = "false";
+                // PAinstance.stop();
+				
+				//
+				// handle the request as a Rest API Post
+				event.preventDefault();
+				console.log('client pitchAngle: '+PAinstance.currentFrame);
+					
+				// not needed now that measurement send 
+				// pitchAngleValue = PAinstance.currentFrame;
+										
+				var PAcurrentAngle = returnPitchAngle(PAinstance.currentFrame);
+				$(".PAcurrentAngle span").text(PAcurrentAngle+"°");
+					
+				var posting = $.post( '/pitchAngle', { pitchAngleValue: PAcurrentAngle } );
+				posting.done(function( data ) {
+						console.log('client pitchAngle post done ');
+				});
+            });
+			
+		}	
+            PAinstance.$dispatcher.on(SpriteClip.Event.ENTER_FRAME, function (e, clip) {
+				
+				var PAcurrentAngle = returnPitchAngle(PAinstance.currentFrame);
+					$(".PAcurrentAngle span").text(PAcurrentAngle+"°");
+				console.log('pitch angle current frame after dispatch: '+PAinstance.currentFrame);
+				
+                });
+				
+		$('#PAupButton').click(function(event){
+			event.preventDefault();
+			if( PAinitSelection == "on" ) {
+				if (PAinstance.currentFrame < PAnumFrames ) {
+					PAinstance.nextFrame();
+					
+					// not needed now that measurement send 
+					// pitchAngleValue = PAinstance.currentFrame;
+					console.log('client pitchAngle: '+PAinstance.currentFrame);
+					
+					// not needed now that measurement send 
+					// pitchAngleValue = PAinstance.currentFrame;
+										
+					var PAcurrentAngle = returnPitchAngle(PAinstance.currentFrame);
+					$(".PAcurrentAngle span").text(PAcurrentAngle+"°");
+					
+					var posting = $.post( '/pitchAngle', { pitchAngleValue: PAcurrentAngle } );
+					posting.done(function( data ) {
+						console.log('client pitchAngle post done ');
+					});
+				};
+			} else {
+		//			console.log("PA init Forward");
+					var posting = $.post( '/pitchAngle', { pitchAngleValue: "up" } );
+			};
+		});
+		
+		$('#PAdownButton').click(function(event){
+			// discovered that this preventDefault MUST be called, 
+			// else the /pitchAngle post (get?) goes through anyway, 
+			event.preventDefault();
+			if( PAinitSelection == "on" ) {
+				if (PAinstance.currentFrame > 1 ) {
+					PAinstance.prevFrame();
+		//			console.log('client pitchAngle BUTTON: '+PAinstance.currentFrame);
+		
+					// not needed now that measurement send 
+					// pitchAngleValue = PAinstance.currentFrame;
+					event.preventDefault();
+					console.log('client pitchAngle: '+PAinstance.currentFrame);
+					
+					// not needed now that measurement send 
+					// pitchAngleValue = PAinstance.currentFrame;
+										
+					var PAcurrentAngle = returnPitchAngle(PAinstance.currentFrame);
+					$(".PAcurrentAngle span").text(PAcurrentAngle+"°");
+					
+					var posting = $.post( '/pitchAngle', { pitchAngleValue: PAcurrentAngle } );
+					posting.done(function( data ) {
+						console.log('client pitchAngle post done ');
+					});
+				}
+					
+				
+			} else {
+					var posting = $.post( '/pitchAngle', { pitchAngleValue: "down" } );
+			};
+		});
+			
+					
+		$( ".PAinitButton-checkbox" ).on( "click", function() {
+			PAinitSelection = $(".PAinitButton-checkbox:checked").val();
+			//	console.log("init on? "+PAinitSelection);
+			if (PAinitSelection == "on") {
+			//		event.preventDefault();
+				var posting = $.post( '/pitchAngle', { pitchAngleValue: "initDone" } );
+									
+				PAinstance.currentFrame = 1;
+				PAcurrentAngle = returnPitchAngle(PAinstance.currentFrame);
+				PAinstance.gotoAndStop(1);							
+				$(".PAcurrentAngle span").text(PAcurrentAngle+"°");
+                $(".PAcurrentFrame span").text(PAinstance.currentFrame);
+			} else {
+	//				console.log("INIT ON");				
+				PAinstance.currentFrame = 1;
+				PAcurrentAngle = returnPitchAngle(PAinstance.currentFrame);
+				PAinstance.gotoAndStop(1);							
+				$(".PAcurrentAngle span").text("INIT to -10°");
+			}
+		 });
+			
+		
+		</script>				
+	</form>
+</div>
+

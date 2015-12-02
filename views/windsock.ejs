@@ -1,0 +1,289 @@
+
+<div class="WSbuttonDiv">
+
+	<span class="WSbuttons">
+		<div>
+			<input type="image" src="/images/up.png" class="WSupButton" id="WSupButton" name="WSupButton" ><br>
+		</div>
+		<div>
+			<input type="image" src="/images/down.png"  class="WSdownButton" id="WSdownButton" ><br>
+		</div>
+	</span>
+</div>
+
+<div class="WSinitButton" name="WSinitButton" id="WSinitButton" >
+	<form>
+		<input type="checkbox" name="WSinitButton-checkbox" class="WSinitButton-checkbox" id="myWSinitButton" checked>
+		<label class="WSinitButton-label" for="myWSinitButton">
+			<span class="WSinitButton-inner"></span>
+			<span class="WSinitButton-switch"></span>
+		</label>
+	</form>
+</div>
+ 
+	<div class="windSpeedDiv">
+		<form name="windSpeedForm" id="windSpeedForm" class="windSpeedForm" action="/windSpeed" method="post">
+			<a class="awesome-button"></a>
+			<p class="WScurrentValue" id="WScurrentValue" ><span>0 m/s</span></p>
+
+<script>
+	// check for touch
+	// 	This was an early attempt to offer both mouse and touch, something that did not quite work 
+	//
+	var hasTouch = (typeof TouchEvent !== "undefined");
+	
+	// variables used for state, etc.
+	var mouseIsDown = "false";
+	var WSframeToPlay = 6;
+	var WScurrentValue = 0;
+	var WSnumFrames = 160;
+	var WSsaveValue = 0;
+	var WS_fanOn = "true";
+
+	windSpeedValue = 0;
+
+	//setup a variable to store our last position
+	var last_position = {},
+		$output = $('#output');
+
+    //Instantiate and get the instance from the element's data-spriteClip property
+    var WSinstance = $(".awesome-button").spriteClip({
+        totalFrames: WSnumFrames,
+        frameRate: 60,
+        stops: [6, WSnumFrames]
+    }).data("spriteClip");
+	
+	
+	WSinstance.currentFrame = WSframeToPlay;
+
+	//
+	// handle touchstart = when the user first puts finger to touch screen
+	//	this sets the initial positions
+	//
+    if (hasTouch) {
+		WSinstance.$el.on("touchstart", function () {
+			mouseIsDown = "true";
+			last_position = {
+				x : event.touches[0].clientX,
+				y : event.touches[0].clientY						
+			}
+		})
+	}
+				
+	// 
+	// handle touchmove = when the user drags finger along screen
+	//	This changes the frame in teh sprite clip
+	//
+
+	if( hasTouch ) {
+		WSinstance.$el.on('touchmove', function (TouchEvent) {
+		if ( mouseIsDown === "true" ) {
+			//check to make sure there is position data to compare against
+			if (typeof(last_position.x) != 'undefined' ) {
+				//get the change from last position to this position
+				var deltaX = last_position.x - event.touches[0].clientX,
+					deltaY = last_position.y - event.touches[0].clientY;
+
+				var initialWSfameToPlay = WSframeToPlay;
+				WSframeToPlay = Math.floor(+WSframeToPlay + +deltaY/2);
+
+				if 	(+WSframeToPlay >= +WSnumFrames) WSframeToPlay = +WSnumFrames;
+				if 	(+WSframeToPlay <= +6) WSframeToPlay = +6;
+				
+				WSinstance.gotoAndStop(WSframeToPlay);	
+			}
+			} else {
+				WSinstance.stop();
+			}
+			
+			//set the new last position to the current for next time
+			last_position = {
+				x : event.touches[0].clientX,
+				y : event.touches[0].clientY
+			}
+            
+		})
+	}
+	
+	//
+	// handle touchend, when user removes finger from screen
+	//
+	if( hasTouch ) {
+        WSinstance.$el.on("touchend", function () {
+			$(".WSinitButton-checkbox").prop("checked", "on");
+			mouseIsDown = "false";
+			WScurrentValue = (WSinstance.currentFrame/WSnumFrames)*100;
+
+			// used for addWind.... not needed now
+			//	windSpeedValue = WScurrentValue;
+											
+			var valueText = reutrnWindSpeed(WScurrentValue);	
+			valueText =  +(Math.round(valueText +"e+1")+"e-1");
+					
+			$(".WScurrentValue span").text(valueText+" m/s");
+					
+			// 
+			// make a POST request to the Restful API 
+			//	via URI /windSpeed
+			//
+			event.preventDefault();
+			var posting = $.post( '/windSpeed', { windSpeedValue: valueText*10 } );
+				posting.done(function( data ) {
+					// can set some code here to perform when post returns. 
+				})
+        });
+	} 
+	
+	//
+	// Leftover from example code, called when? for event updates?
+	//
+    WSinstance.$dispatcher.on(SpriteClip.Event.ENTER_FRAME, function (e, clip) {
+
+		WScurrentValue = (WSinstance.currentFrame/WSnumFrames)*100;
+		var valueText = reutrnWindSpeed(WScurrentValue);
+		valueText =  +(Math.round(valueText +"e+1")+"e-1");
+		$(".WScurrentValue span").text(valueText+" m/s");
+		$(".WScurrentFrame span").text(WSinstance.currentFrame);
+    });
+				
+				
+	// 
+	// Up button 
+	//		handles a single frame change
+	//
+	$('#WSupButton').click(function(TouchEvent){
+		if( WS_fanOn == "true" ) {
+			$(".WSinitButton-checkbox").prop("checked", "on");
+			if 	(+WSinstance.currentFrame < +WSnumFrames) {
+				WSinstance.nextFrame();
+
+				// WSinstance.currentFrame += 1;										
+				WScurrentValue = (WSinstance.currentFrame/WSnumFrames)*100;
+					
+					
+				// used for addWind.... not needed now
+				//	windSpeedValue = WScurrentValue;
+				
+				// 
+				// get the windspeed from the animation property WScurrentValue
+				//
+				var valueText = reutrnWindSpeed(WScurrentValue);	
+				
+				// 
+				// make a POST request to the Restful API 
+				//	via URI /windSpeed
+				//
+				TouchEvent.preventDefault();
+				var posting = $.post( '/windSpeed', { windSpeedValue: valueText*10 } );
+										
+
+				$(".WScurrentValue span").text(valueText+" m/s");
+                $(".WScurrentFrame span").text(WSinstance.currentFrame);
+				posting.done(function( data ) {
+					// console.log('client windSpeed post done ');
+				});
+			};
+		}
+	});
+		
+						
+	// 
+	// Down button 
+	//		handles a single frame change
+	//
+	$('#WSdownButton').click(function(TouchEvent){
+		if( WS_fanOn == "true" ) {
+			$(".WSinitButton-checkbox").prop("checked", "on")
+			if 	(WSinstance.currentFrame > 6) {
+				WSinstance.prevFrame();
+				WScurrentValue = (WSinstance.currentFrame/WSnumFrames)*100;
+							
+				// 
+				// make a POST request to the Restful API 
+				//	via URI /windSpeed
+				//	
+				TouchEvent.preventDefault();
+					
+				// used for addWind.... not needed now
+				//	windSpeedValue = WScurrentValue;
+							
+				// 
+				// get the wind speed computed from the current frame value
+				//
+				var valueText = reutrnWindSpeed(WScurrentValue);	
+				var posting = $.post( '/windSpeed', { windSpeedValue: valueText*10 } );
+
+				$(".WScurrentValue span").text(valueText+" m/s");
+                $(".WScurrentFrame span").text(WSinstance.currentFrame);
+				posting.done(function( data ) {
+					// console.log('client windSpeed post done ');
+				});
+			};
+		}
+	});	
+
+	//
+	// handle the initButton, which turns the fan on or off
+	//
+	$( ".WSinitButton-checkbox" ).on( "click", function() {
+		//		console.log("INIT on click");
+		WSinitSelection = $(".WSinitButton-checkbox:checked").val();
+		//	console.log("init on? "+WSinitSelection);
+		if (WSinitSelection == "on") {
+			WS_fanOn = "true";
+			WScurrentValue = WSsaveValue;
+			// console.log("save "+WScurrentValue);
+			var gotoFrameNumber = (WScurrentValue/100)*WSnumFrames;
+			if( gotoFrameNumber < 6 ) {
+				gotoFrameNumber = 6;
+			}
+			WSinstance.currentFrame = gotoFrameNumber;
+					
+			// used for addWind.... not needed now
+			//	windSpeedValue = WScurrentValue;
+					
+			var WSvalueText = reutrnWindSpeed(WScurrentValue);	
+			var posting = $.post( '/windSpeed', { windSpeedValue: WSvalueText*10 } );
+
+			WSinstance.gotoAndStop(WSinstance.currentFrame);
+			
+			$(".WScurrentValue span").text(WSvalueText+"m/s");
+            $(".WScurrentFrame span").text(WSinstance.currentFrame);
+		} else {
+			WS_fanOn = "false";
+	//				console.log("INIT ON");
+			WSsaveValue = WScurrentValue;
+			console.log("save "+WScurrentValue);
+					
+			// used for addWind.... not needed now
+			//	windSpeedValue = WScurrentValue;
+						
+			var posting = $.post( '/windSpeed', { windSpeedValue: 0 } );
+			
+			WSinstance.currentFrame = 1;
+			WSinstance.gotoAndStop(1);							
+			$(".WScurrentValue span").text("0 m/s");
+            $(".WScurrentFrame span").text(WSinstance.currentFrame);
+		}
+	});	
+
+//
+// function to 'normalize' location data to screen
+//				
+function fixPageXY(e) {
+  if (e.pageX == null && e.clientX != null ) {
+    var html = document.documentElement
+    var body = document.body
+ 
+    e.pageX = e.clientX + (html.scrollLeft || body && body.scrollLeft || 0)
+    e.pageX -= html.clientLeft || 0
+    e.pageY = e.clientY + (html.scrollTop || body && body.scrollTop || 0)
+    e.pageY -= html.clientTop || 0
+  }
+}
+
+
+</script>
+</form>
+</div>
+ 

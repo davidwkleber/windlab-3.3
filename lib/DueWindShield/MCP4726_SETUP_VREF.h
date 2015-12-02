@@ -1,0 +1,1 @@
+#define USE_VREF_REF_INPUT

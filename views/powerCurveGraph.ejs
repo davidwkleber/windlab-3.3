@@ -1,0 +1,273 @@
+	
+			
+	<div id="powerCurveContainer" >
+	</div>
+	
+	
+	<script type="text/javascript" src="/javascripts/addWindPitchCurrentToData.js"></script>
+
+	<script type="text/javascript" src="/javascripts/JSON2CSV.js"></script>
+	<script type="text/javascript" src="/javascripts/JSON2TSV.js"></script>
+	<script type="text/javascript" src="/lib/canvasJS/canvasjs.min.js"></script>
+		
+	
+  	<div class="PCsaveDataButtonDiv">
+		<button class="PCsaveDataButton" id="PCsaveDataButton" name="PCsaveDataButton" onclick="PCsaveDataFunction()">Save</button>
+	</div>
+	<div class="PCrecordButtonsDiv" name="PCrecordButtonsDiv" id="PCrecordButtonsDiv" >
+	</div>
+	
+ 	<div class="PCrecordDataButtonDiv">
+		<button class="PCrecordDataButton" id="PCrecordDataButton" name="PCrecordDataButton" onclick="PCrecordDataFunction()">Record</button>
+	</div>
+	
+	<script type="text/javascript">
+	
+	//
+	// powerCurveGraph is really 2 lines in one graph.
+	//
+	//
+	//		dataSeries = the object used for the current data
+	//			type: a scatter graph point
+	//			dataPoints: the data as a set a line of 'limit' items, where limit = 1
+	//			This is the mean of the last 'inData_limit' items, where inData_limit = 100
+	//			Thus a moving average of the last 100 data points is shows as a single 'blinky point' in the chart.
+	//
+	//
+	//	meanDataSeries = the saved data points, shown in a line
+	//	
+// window.onload = function () {
+		var data = []; 
+		
+		// dataSeries is the object for the current data (as running average mean)
+		var dataSeries = { type: "scatter" };
+		var dataPoints = [];
+
+		// meainDataSeries is the set of recorded data points
+		var meanDataSeries = {type: "line" };
+		meanData = []; 
+
+		// Set an initial 0,0 to the current data point. 
+		dataPoints.push({
+			x: 0,
+			y: 0
+		});
+		
+		// attach the data to the objects
+		meanDataSeries.dataPoints = meanData;	
+		dataSeries.dataPoints = dataPoints;
+				
+				//
+				// don't see why this would ever reach more than 1 item 
+				//	as dataSeries is the Object containing the dataPoints
+				//	not the dataPoints themselves. 
+				//	but hey, lets keep it in for now just in case
+				//
+				if (dataSeries.length > limit){
+					dataSeries.shift();
+				}
+				
+				
+	// 
+	// definition of the CanvasJS chart displayed in powerCurveContainer
+	//
+		var chart = new CanvasJS.Chart("powerCurveContainer",
+		{
+			zoomEnabled: true,
+			backgroundColor: null,
+			title:{
+				text: "Power Curve"
+			},
+			animationEnabled: true,
+
+			axisY:{
+				title: "Power mW",
+				labelFontFamily: "sans-serif",
+				labelFontSize: 10,
+				 labelFontColor: "black",
+				lineColor: "black",
+				tickColor: "black",
+					includeZero: false,
+					minimum: 0,
+					maximum: 1000,
+					interval: 200
+			},
+			axisX:{
+				title: "RPM",
+				labelFontFamily: "sans-serif",
+				labelFontSize: 10,
+				labelFontColor: "black",
+				lineColor: "black",
+				tickColor: "black",
+					labelAngel: 30,
+					minimum: 0,
+					maximum: 6000,
+					interval: 1000
+			},
+			// this is how the 2 data sets are attached to the chart. 
+			// by attaching their objects to the CanvasJS object
+			data: [ meanDataSeries, dataSeries ]
+		});
+			
+		 chart.render();
+	//	}
+		
+			
+		// the number of current data points shown as 'blinky point'
+		var limit = 1; 
+		
+
+		console.log("POWER CURVE GRAPH");
+		
+		var dataItem;
+		// set of data for each meanData point calculation
+			 inData = []; 
+		var inData_limit = 100;
+			 outData = []; 
+		
+			
+	//
+	// this is the callback registered with the socket.io data stream. 
+	//
+	// 	NOTE: why transfer stream data to dataIn, can we not just push teh dataInFromStream to inData?
+	//
+	function handlePowerCurveData(dataInFromStream) {
+		dataIn = dataInFromStream;
+
+		// save the new JSON data to a buffer of limited size.
+		//	this is the 'raw data' bucket. 
+		//		used to compute the current running mean to display as a 'blinky point'
+		//		used when recording a data point, where that mean is added to the line
+		inData.push(dataIn);
+		if ( inData.length > inData_limit ) {
+			inData.shift();
+		}
+		
+		// clear out the current chart. 
+		// the clear Rect would not work, so used the hack below with width=width
+		// context.clearRect(0, 0, chart.width, chart.height);
+		chart.width = chart.width;
+
+		// calculate the running mean from the new set of data which includes the latest data input
+		dataItem = computeMean(inData);
+		// and push this to the set of current dataPoints (limit of 1 for the blinky point)
+		dataPoints.push({
+			x: +dataItem.rpm,
+			y: +dataItem.power,
+		});
+						
+		//
+		// keep only the last data item
+		//
+		// 	so this should always shift out the previous data point 
+		//	and keep the computeMean we just computed. 
+		//	
+		if (dataPoints.length > limit){
+			dataPoints.shift();				
+		}
+		
+		// add the current data point to the dataSeries object which represents the blinky point
+		dataSeries.dataPoints = dataPoints;
+		
+		// and render the new data
+		chart.render();
+	};
+				
+	// register the callback to the data socket for new data coming in as updateData
+	dataSocket.on('updateData', handlePowerCurveData );
+
+
+	// 
+	// PowerCurve Record Data Function
+	//
+	//	add the latest mean data point to the line of recorded data
+	//		
+	//	NOTE: there should be several of these lines, one for each 'configuration' of PitchAngle and WindSpeed
+	//
+	function PCrecordDataFunction() {
+				// console.log('record button in Power Curve: ');
+				
+		// compute the mean from the saved data.
+		// 	NOTE: this could be the current data point instead of re-meaning the data
+		//
+		dataMeaned = computeMean(inData);
+				
+		// push the mean to the set of data	used for the line			
+		meanData.push( {
+			x: dataMeaned.rpm,
+			y: +dataMeaned.power
+		});
+		// and attach the data to the object used for this line of data
+		meanDataSeries.dataPoints = meanData;
+			
+		// the 'raw' set of data, not the means, are saved to outData for use in saving data to a file		
+		outData.push(inData);
+		
+		// clear out the inData array
+		inData = [];
+		
+		// and render the new line
+		chart.render();
+	}
+	
+	// Power Curve Save Data Function
+	//
+	//		Save the 'raw' data to a file
+	//		
+	function PCsaveDataFunction() {
+
+		// convert the data to output into a blob of tab separated values.
+		var json = outData;			
+		var tsv = JSON2TSV("["+json+"]");
+		var blob = new Blob([tsv], {type: "application/csv"});
+
+		// create the filename with the date in it
+		var date = new Date();
+		var fileName = "PowerCurve_data."+date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear()+" "+date.getHours()+"."+date.getMinutes()+".tsv";
+		
+		// save the blob to the file
+		saveAs(blob,fileName);
+		
+		// clear out the old data
+		meanData = [];
+		outData = [];
+		inData = [];
+		meanDataSeries.dataPoints = meanData;
+	}
+		
+		
+
+
+	// 
+	// compute the mean of the incomming data
+	//
+	//		NOTE: why use the var x,y and thisMeanDataItem? can this not be done better?
+	function computeMean(dataToMean) {
+		var sumPower = 0;
+		var sumRPM = 0;
+		// loop through the data and add to the sums
+		for(var i = 0; i < dataToMean.length; i++) {	
+			thisMeanDataItem = JSON.parse(dataToMean[i]);
+			sumPower += +thisMeanDataItem.power;
+			sumRPM += +thisMeanDataItem.rpm;
+		};
+		// and divide by the number of items in the set
+		var y = (sumPower / dataToMean.length);
+		var x = (sumRPM / dataToMean.length);
+			
+		// transfer to the array object and return
+		thisMeanDataItem.power = y;
+		thisMeanDataItem.rpm = x;
+				
+		return thisMeanDataItem;
+	}
+
+
+		
+		</script>
+
+	
+		
+		
+		
+				

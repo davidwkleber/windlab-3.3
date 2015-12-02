@@ -1,0 +1,46 @@
+<!doctype html>
+
+
+<script type="text/javascript" src="/javascripts/guage.js"></script>
+
+
+ 		<span id="currentGaugeContainer"></span>
+		<span id="voltageGaugeContainer"></span>
+		<span id="powerGaugeContainer"></span>
+		<span id="rpmGaugeContainer"></span>
+
+
+   
+   <script>
+
+	// perform initial creation of gauges
+	createGauge("voltage", "Voltage", "mV", 0, 15000);
+	createGauge("current", "Current", "mA", 0, 1300);
+	createGauge("rpm", "RPM", "rpm", 0, 8000);
+	createGauge("power", "Power", "mW", 0, 3000);
+
+	var dataItem;
+
+				
+	// simple function to display data in gauge as it is updated
+	function handleGuageData(data) {
+	console.log("handleGuageData data: "+data);
+		dataItem = JSON.parse(data);
+
+				// var realRPM = Math.floor(((dataItem.rpm * 3.3)/1024)*1000); //*666.667);
+				// var realRPM = Math.floor(dataItem.rpm /1000);
+
+		updateGauge("current", dataItem.current);
+		updateGauge("voltage", dataItem.voltage);
+		updateGauge("rpm", dataItem.rpm);
+		updateGauge("power", dataItem.power);
+			 
+	};
+
+
+	// register the callback
+	dataSocket.on('updateData', handleGuageData );
+
+	   </script>
+	   </body>
+</html>

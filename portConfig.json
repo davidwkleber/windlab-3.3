@@ -1,0 +1,6 @@
+{
+	"measurement": {
+		"port": "COM7",
+		"baudrate": "250000"
+	}
+}

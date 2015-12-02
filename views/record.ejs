@@ -1,0 +1,136 @@
+<!doctype html>
+
+
+<link rel="stylesheet" href="../stylesheets/style.css">
+
+<script type="text/javascript" src="/javascripts/JSON2CSV.js"></script>
+<script type="text/javascript" src="/javascripts/JSON2TSV.js"></script>
+
+<script type="text/javascript" src="/javascripts/addWindPitchCurrentToData.js"></script>
+
+  	<div class="saveDataButtonDiv">
+		<button class="saveDataButton" id="saveDataButton" name="saveDataButton" onclick="saveDataFunction()">Save</button>
+	</div>
+	<div class="recordButtonsDiv" name="recordButtonsDiv" id="recordButtonsDiv" >
+	</div>
+
+		<div class="recordButtons"  id="recordButtons" name="recordButtons">
+    <input type="checkbox" name="recordButtons-checkbox" class="recordButtons-checkbox" id="myrecordButtons" checked>
+    <label class="recordButtons-label" for="myrecordButtons">
+        <span class="recordButtons-inner"></span>
+        <span class="recordButtons-switch"></span>
+    </label>
+</div>
+
+		<script>
+
+		// code used for recording in the timeDomain = lineGraph section
+		// 	included are buttons to record and save to file
+
+		var recordDataItem;
+		var recordedData;
+		var recordsocket;
+		var recordDataFlag = false;
+			recordedData = [];
+		var recordSelection = "off";
+			
+		// this code connects to the socket itself, rather than using the socket.js code 
+		var recordsocket = io.connect('http://127.0.0.1:1337');
+
+		recordsocket.on('connect', function (data) {
+			console.log('record client connected ');
+			
+			// never was sure whay JQuery is used here, but examples said so...
+			jQuery(function ($) {
+			// setup the data connection anonymous function callback
+				recordsocket.on('updateData', function (data) {
+					console.log('record update raw: ' + data);
+					if( recordDataFlag) {
+					// add the client based data to the data object
+						console.log("record: data: " + data);
+				
+				
+					// NOTE: Is this necessary???
+					// 
+						dataIn = addWindPitchCurrentToData(data)
+			
+					// get the data and add to the buffer
+						recordDataItem = JSON.parse(dataIn);
+						recordedData.push(dataIn);
+					}
+				});	
+			
+			});
+		});	
+		
+		function recordFunction() {
+	//		console.log('start recording');
+			$('#recordButton').css('background-color','#f47121');
+			recordDataFlag = true;
+		}
+		
+		function stopRecordFunction() {
+		//	console.log('stop recording');
+			recordDataFlag = false;
+					console.log('record button in stopRecordFunction  is: '+$(".recordButtons-checkbox:checked").val());
+
+			 $(".recordButtons-checkbox").prop("checked", "on")
+
+			$('#recordButton').css('background-color','#e8e8e8');
+			// recordsocket.disconnect();
+		}
+		
+		function saveDataFunction() {
+			console.log('record button in saveDataFunction is: '+$(".recordButtons-checkbox:checked").val());
+
+			if ( recordDataFlag === true ) {
+					stopRecordFunction()
+			}
+	//		console.log('save data');			
+		//	recordDataFlag = false;
+
+			// $('#recordButton').css('background-color','#e8e8e8');
+						
+			// var json = JSON.stringify(recordedData);
+			var json = recordedData;
+			
+		//	var blob = new Blob([json], {type: "application/json"});
+			
+			var tsv = JSON2TSV("["+json+"]");
+			var blob = new Blob([tsv], {type: "application/csv"});
+	
+			var date = new Date();
+			var fileName = "data."+date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear()+" "+date.getHours()+"."+date.getMinutes()+".tsv";
+
+			
+			saveAs(blob,fileName);
+	
+			recordedData = []
+
+		}
+		
+		// handle the record button
+
+		$( ".recordButtons-checkbox" ).on( "click", function() {
+
+			recordSelection = $(".recordButtons-checkbox:checked").val();
+			if (recordSelection != "on") {
+				console.log("Record ON");
+				recordFunction()
+		
+			} else {
+				console.log("Record OFF");
+
+			if ( recordDataFlag === true ) {
+				stopRecordFunction()
+						// saveDataFunction()
+			}
+		}
+	});
+
+		</script>			
+					
+ 
+ 
+ 
+  </div>
